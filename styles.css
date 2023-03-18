@@ -1,0 +1,33 @@
+div{
+    border: 2px solid black;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    margin: 100px 650px 100px 650px; /*Dimension of calculator*/
+}
+
+#screen{
+    padding: 50px;
+}
+
+#buttons{
+    display: flex;
+}
+
+#numbers{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#operands{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+button{
+    flex-grow: 1;
+    padding: 40px;
+}
