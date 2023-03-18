@@ -10,6 +10,7 @@ div{
 
 #screen{
     padding: 50px;
+    background-color: gray;
 }
 
 #buttons{
@@ -21,9 +22,22 @@ div{
     flex-wrap: wrap;
 }
 
+#numbers > button{
+    background-color: yellow;
+    font-size: larger;
+    font-weight: 900;
+}
+
 #operands{
     display: flex;
     flex-wrap: wrap;
+}
+
+#operands > button{
+    background-color: black;
+    color: white;
+    font-size: larger;
+    font-weight: 900;
 }
 
 
